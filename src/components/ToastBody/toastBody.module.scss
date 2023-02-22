@@ -1,0 +1,45 @@
+.close g > path {
+    fill: #fff;
+  }
+  .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 auto;
+  }
+  
+  .grow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    flex: 1 1 auto;
+  }
+  
+  .message {
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    color: #202536;
+    text-transform: uppercase;
+    flex: 0 1 auto;
+  }
+
+.body_warning {
+  .message {
+    color: #757575;
+  }
+
+  .close g > path {
+    fill: #757575;
+  }
+}
+
+.toast_button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}

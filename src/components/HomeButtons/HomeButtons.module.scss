@@ -1,0 +1,43 @@
+.buttonsList {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px 0 60px;
+    overflow-y: auto;
+    height: min-content;
+    button {
+        line-height: 1.5715;
+        position: relative;
+        display: inline-block;
+        font-weight: 400;
+        white-space: nowrap;
+        text-align: center;
+        box-shadow: 0 2px 0 rgba(0,0,0,.015);
+        cursor: pointer;
+        transition: all .3s;
+        user-select: none;
+        touch-action: manipulation;
+        margin-right: 1%;
+        margin-bottom: .5%;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+        font-size: 2vh;
+        height: 21vh;
+        margin-top: 10px;
+        background: rgb(73, 93, 114);
+        width: 20.3vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+        &:hover {
+            background: rgb(34,71,111);
+        }
+        span {
+            color: #fff;
+            font-weight: 600;
+            white-space: normal;
+        }
+    }
+}
